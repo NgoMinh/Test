@@ -1,0 +1,16 @@
+.panel{
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.panel img{
+	width: 100%;
+	height: auto;
+	filter:gray;
+}
+
+.panel:hover img{
+	filter: none;
+}
